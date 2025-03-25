@@ -20,9 +20,9 @@ if %errorlevel% equ 0 (
     REM Check if the batch was started via double-click
     IF /i "%comspec% /c %~0 " equ "%cmdcmdline:"=%" (
         REM echo This script was started by double clicking.
-        cmd /k python.exe kohya_gui.py %*
+        cmd /k python.exe kohya_gui.py --inbrowser %*
     ) ELSE (
         REM echo This script was started from a command prompt.
-        python.exe kohya_gui.py %*
+        python.exe kohya_gui.py --inbrowser %*
     )
 )
