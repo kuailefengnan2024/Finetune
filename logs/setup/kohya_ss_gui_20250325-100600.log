@@ -1,0 +1,12 @@
+2025-03-25 10:06:00,622 | sd | INFO | setup_common | Terminal screen cleared successfully
+2025-03-25 10:06:04,211 | sd | INFO | setup_common | Kohya_ss GUI version: v24.2.0
+
+2025-03-25 10:06:04,215 | sd | INFO | setup_common | Python version is 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2025-03-25 10:06:04,375 | sd | ERROR | setup_common | Error during Git operation: Command '['git', 'submodule', 'update', '--init', '--recursive', '--quiet']' returned non-zero exit status 128.
+2025-03-25 10:06:04,379 | sd | INFO | setup_common | Installing/Validating requirements from requirements_pytorch_windows.txt...
+2025-03-25 10:06:04,582 | sd | INFO | setup_common | Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu124
+2025-03-25 10:06:04,585 | sd | INFO | setup_common | Obtaining file:///G:/Finetune/sd-scripts (from -r requirements.txt (line 38))
+2025-03-25 10:06:04,587 | sd | INFO | setup_common | Preparing metadata (setup.py): started
+2025-03-25 10:06:04,728 | sd | INFO | setup_common | Preparing metadata (setup.py): finished with status 'done'
+2025-03-25 10:06:06,139 | sd | INFO | setup_common | Collecting torch==2.5.0+cu124
+2025-03-25 10:06:06,224 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/cu124/torch-2.5.0%2Bcu124-cp310-cp310-win_amd64.whl (2510.8 MB)
