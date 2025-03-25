@@ -27,7 +27,8 @@ logging.basicConfig(
 )
 
 # 可修改：默认模型地址，如果命令行没有提供，则使用此地址
-DEFAULT_MODEL_REPO = "@https://huggingface.co/black-forest-labs/FLUX.1-dev"
+#DEFAULT_MODEL_REPO = "@https://huggingface.co/black-forest-labs/FLUX.1-dev"
+DEFAULT_MODEL_REPO = "@https://huggingface.co/microsoft/Florence-2-large"
 #DEFAULT_MODEL_REPO = "@https://huggingface.co/XLabs-AI/flux-dev-fp8"  # 在这里修改默认模型地址
 
 # 项目根目录

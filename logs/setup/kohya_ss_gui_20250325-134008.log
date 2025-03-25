@@ -1,0 +1,3 @@
+2025-03-25 13:40:08,877 | sd | INFO | setup_common | Terminal screen cleared successfully
+2025-03-25 13:40:21,218 | sd | ERROR | setup_common | Error occurred while running command: accelerate config
+2025-03-25 13:40:21,220 | sd | ERROR | setup_common | Error: Command 'accelerate config' returned non-zero exit status 1.

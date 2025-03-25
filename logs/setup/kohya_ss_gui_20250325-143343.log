@@ -1,0 +1,440 @@
+2025-03-25 14:33:43,105 | sd | INFO | setup_common | Terminal screen cleared successfully
+2025-03-25 14:33:56,188 | sd | INFO | setup_common | Kohya_ss GUI version: v24.2.0
+
+2025-03-25 14:33:56,190 | sd | INFO | setup_common | Python version is 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2025-03-25 14:33:57,728 | sd | INFO | setup_common | Submodule initialized and updated.
+2025-03-25 14:33:57,730 | sd | INFO | setup_common | Installing/Validating requirements from requirements_pytorch_windows.txt...
+2025-03-25 14:33:58,188 | sd | INFO | setup_common | Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu124
+2025-03-25 14:33:58,189 | sd | INFO | setup_common | Obtaining file:///D:/Finetune/Finetune/sd-scripts (from -r requirements.txt (line 38))
+2025-03-25 14:33:58,192 | sd | INFO | setup_common | Preparing metadata (setup.py): started
+2025-03-25 14:33:58,457 | sd | INFO | setup_common | Preparing metadata (setup.py): finished with status 'done'
+2025-03-25 14:33:59,487 | sd | INFO | setup_common | Collecting torch==2.5.0+cu124
+2025-03-25 14:33:59,556 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/cu124/torch-2.5.0%2Bcu124-cp310-cp310-win_amd64.whl (2510.8 MB)
+2025-03-25 14:41:53,721 | sd | INFO | setup_common | ---------------------------------------- 2.5/2.5 GB 992.8 kB/s eta 0:00:00
+2025-03-25 14:41:57,019 | sd | INFO | setup_common | Collecting torchvision==0.20.0+cu124
+2025-03-25 14:41:57,100 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/cu124/torchvision-0.20.0%2Bcu124-cp310-cp310-win_amd64.whl (6.1 MB)
+2025-03-25 14:41:58,478 | sd | INFO | setup_common | ---------------------------------------- 6.1/6.1 MB 4.5 MB/s eta 0:00:00
+2025-03-25 14:41:59,225 | sd | INFO | setup_common | Collecting xformers==0.0.28.post2
+2025-03-25 14:41:59,303 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/cu124/xformers-0.0.28.post2-cp310-cp310-win_amd64.whl (168.8 MB)
+2025-03-25 14:42:34,647 | sd | INFO | setup_common | -------------------------------------- 168.8/168.8 MB 3.6 MB/s eta 0:00:00
+2025-03-25 14:42:35,627 | sd | INFO | setup_common | Collecting bitsandbytes==0.44.0
+2025-03-25 14:42:35,950 | sd | INFO | setup_common | Downloading bitsandbytes-0.44.0-py3-none-win_amd64.whl (121.5 MB)
+2025-03-25 14:43:02,045 | sd | INFO | setup_common | -------------------------------------- 121.5/121.5 MB 4.3 MB/s eta 0:00:00
+2025-03-25 14:43:02,931 | sd | INFO | setup_common | Collecting tensorboard
+2025-03-25 14:43:03,022 | sd | INFO | setup_common | Downloading tensorboard-2.19.0-py3-none-any.whl (5.5 MB)
+2025-03-25 14:43:04,212 | sd | INFO | setup_common | ---------------------------------------- 5.5/5.5 MB 4.6 MB/s eta 0:00:00
+2025-03-25 14:43:04,981 | sd | INFO | setup_common | Collecting tensorflow>=2.16.1
+2025-03-25 14:43:05,070 | sd | INFO | setup_common | Downloading tensorflow-2.19.0-cp310-cp310-win_amd64.whl (375.7 MB)
+2025-03-25 14:44:18,009 | sd | INFO | setup_common | -------------------------------------- 375.7/375.7 MB 3.4 MB/s eta 0:00:00
+2025-03-25 14:44:19,143 | sd | INFO | setup_common | Collecting onnxruntime-gpu==1.19.2
+2025-03-25 14:44:19,212 | sd | INFO | setup_common | Downloading onnxruntime_gpu-1.19.2-cp310-cp310-win_amd64.whl (226.4 MB)
+2025-03-25 14:45:06,455 | sd | INFO | setup_common | -------------------------------------- 226.4/226.4 MB 3.9 MB/s eta 0:00:00
+2025-03-25 14:45:07,487 | sd | INFO | setup_common | Collecting accelerate==0.33.0
+2025-03-25 14:45:07,558 | sd | INFO | setup_common | Downloading accelerate-0.33.0-py3-none-any.whl (315 kB)
+2025-03-25 14:45:07,629 | sd | INFO | setup_common | -------------------------------------- 315.1/315.1 kB 4.8 MB/s eta 0:00:00
+2025-03-25 14:45:07,950 | sd | INFO | setup_common | Collecting aiofiles==23.2.1
+2025-03-25 14:45:08,026 | sd | INFO | setup_common | Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+2025-03-25 14:45:08,359 | sd | INFO | setup_common | Collecting altair==4.2.2
+2025-03-25 14:45:08,435 | sd | INFO | setup_common | Downloading altair-4.2.2-py3-none-any.whl (813 kB)
+2025-03-25 14:45:08,597 | sd | INFO | setup_common | -------------------------------------- 813.6/813.6 kB 5.1 MB/s eta 0:00:00
+2025-03-25 14:45:09,231 | sd | INFO | setup_common | Collecting dadaptation==3.2
+2025-03-25 14:45:09,304 | sd | INFO | setup_common | Downloading dadaptation-3.2.tar.gz (13 kB)
+2025-03-25 14:45:09,372 | sd | INFO | setup_common | Installing build dependencies: started
+2025-03-25 14:45:16,571 | sd | INFO | setup_common | Installing build dependencies: finished with status 'done'
+2025-03-25 14:45:16,574 | sd | INFO | setup_common | Getting requirements to build wheel: started
+2025-03-25 14:45:16,817 | sd | INFO | setup_common | Getting requirements to build wheel: finished with status 'done'
+2025-03-25 14:45:16,820 | sd | INFO | setup_common | Preparing metadata (pyproject.toml): started
+2025-03-25 14:45:17,113 | sd | INFO | setup_common | Preparing metadata (pyproject.toml): finished with status 'done'
+2025-03-25 14:45:17,744 | sd | INFO | setup_common | Collecting diffusers[torch]==0.25.0
+2025-03-25 14:45:17,815 | sd | INFO | setup_common | Downloading diffusers-0.25.0-py3-none-any.whl (1.8 MB)
+2025-03-25 14:45:18,347 | sd | INFO | setup_common | ---------------------------------------- 1.8/1.8 MB 3.5 MB/s eta 0:00:00
+2025-03-25 14:45:18,677 | sd | INFO | setup_common | Collecting easygui==0.98.3
+2025-03-25 14:45:18,752 | sd | INFO | setup_common | Downloading easygui-0.98.3-py2.py3-none-any.whl (92 kB)
+2025-03-25 14:45:18,780 | sd | INFO | setup_common | ---------------------------------------- 92.7/92.7 kB 2.7 MB/s eta 0:00:00
+2025-03-25 14:45:19,145 | sd | INFO | setup_common | Collecting einops==0.7.0
+2025-03-25 14:45:19,236 | sd | INFO | setup_common | Downloading einops-0.7.0-py3-none-any.whl (44 kB)
+2025-03-25 14:45:19,253 | sd | INFO | setup_common | ---------------------------------------- 44.6/44.6 kB 2.1 MB/s eta 0:00:00
+2025-03-25 14:45:19,925 | sd | INFO | setup_common | Collecting fairscale==0.4.13
+2025-03-25 14:45:20,008 | sd | INFO | setup_common | Downloading fairscale-0.4.13.tar.gz (266 kB)
+2025-03-25 14:45:20,056 | sd | INFO | setup_common | -------------------------------------- 266.3/266.3 kB 5.6 MB/s eta 0:00:00
+2025-03-25 14:45:20,541 | sd | INFO | setup_common | Installing build dependencies: started
+2025-03-25 14:45:26,071 | sd | INFO | setup_common | Installing build dependencies: finished with status 'done'
+2025-03-25 14:45:26,076 | sd | INFO | setup_common | Getting requirements to build wheel: started
+2025-03-25 14:45:26,286 | sd | INFO | setup_common | Getting requirements to build wheel: finished with status 'done'
+2025-03-25 14:45:26,290 | sd | INFO | setup_common | Installing backend dependencies: started
+2025-03-25 14:45:28,443 | sd | INFO | setup_common | Installing backend dependencies: finished with status 'done'
+2025-03-25 14:45:28,446 | sd | INFO | setup_common | Preparing metadata (pyproject.toml): started
+2025-03-25 14:45:28,740 | sd | INFO | setup_common | Preparing metadata (pyproject.toml): finished with status 'done'
+2025-03-25 14:45:29,074 | sd | INFO | setup_common | Collecting ftfy==6.1.1
+2025-03-25 14:45:29,153 | sd | INFO | setup_common | Downloading ftfy-6.1.1-py3-none-any.whl (53 kB)
+2025-03-25 14:45:29,166 | sd | INFO | setup_common | ---------------------------------------- 53.1/53.1 kB 2.7 MB/s eta 0:00:00
+2025-03-25 14:45:29,890 | sd | INFO | setup_common | Collecting gradio==5.4.0
+2025-03-25 14:45:29,958 | sd | INFO | setup_common | Downloading gradio-5.4.0-py3-none-any.whl (56.7 MB)
+2025-03-25 14:45:42,432 | sd | INFO | setup_common | ---------------------------------------- 56.7/56.7 MB 4.5 MB/s eta 0:00:00
+2025-03-25 14:45:43,261 | sd | INFO | setup_common | Collecting huggingface-hub==0.25.2
+2025-03-25 14:45:43,341 | sd | INFO | setup_common | Downloading huggingface_hub-0.25.2-py3-none-any.whl (436 kB)
+2025-03-25 14:45:43,487 | sd | INFO | setup_common | -------------------------------------- 436.6/436.6 kB 3.4 MB/s eta 0:00:00
+2025-03-25 14:45:44,137 | sd | INFO | setup_common | Collecting imagesize==1.4.1
+2025-03-25 14:45:44,209 | sd | INFO | setup_common | Downloading imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
+2025-03-25 14:45:45,004 | sd | INFO | setup_common | Collecting invisible-watermark==0.2.0
+2025-03-25 14:45:45,091 | sd | INFO | setup_common | Downloading invisible_watermark-0.2.0-py3-none-any.whl (1.6 MB)
+2025-03-25 14:45:45,475 | sd | INFO | setup_common | ---------------------------------------- 1.6/1.6 MB 4.2 MB/s eta 0:00:00
+2025-03-25 14:45:46,100 | sd | INFO | setup_common | Collecting lion-pytorch==0.0.6
+2025-03-25 14:45:46,170 | sd | INFO | setup_common | Downloading lion_pytorch-0.0.6-py3-none-any.whl (4.2 kB)
+2025-03-25 14:45:46,813 | sd | INFO | setup_common | Collecting lycoris_lora==3.1.0
+2025-03-25 14:45:46,886 | sd | INFO | setup_common | Downloading lycoris_lora-3.1.0.tar.gz (51 kB)
+2025-03-25 14:45:46,903 | sd | INFO | setup_common | ---------------------------------------- 51.6/51.6 kB 2.8 MB/s eta 0:00:00
+2025-03-25 14:45:47,065 | sd | INFO | setup_common | Preparing metadata (setup.py): started
+2025-03-25 14:45:47,399 | sd | INFO | setup_common | Preparing metadata (setup.py): finished with status 'done'
+2025-03-25 14:45:47,727 | sd | INFO | setup_common | Collecting omegaconf==2.3.0
+2025-03-25 14:45:47,795 | sd | INFO | setup_common | Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+2025-03-25 14:45:47,813 | sd | INFO | setup_common | ---------------------------------------- 79.5/79.5 kB 4.6 MB/s eta 0:00:00
+2025-03-25 14:45:48,466 | sd | INFO | setup_common | Collecting onnx==1.16.1
+2025-03-25 14:45:48,533 | sd | INFO | setup_common | Downloading onnx-1.16.1-cp310-cp310-win_amd64.whl (14.4 MB)
+2025-03-25 14:45:51,217 | sd | INFO | setup_common | ---------------------------------------- 14.4/14.4 MB 5.4 MB/s eta 0:00:00
+2025-03-25 14:45:51,899 | sd | INFO | setup_common | Collecting prodigyopt==1.0
+2025-03-25 14:45:51,972 | sd | INFO | setup_common | Downloading prodigyopt-1.0-py3-none-any.whl (5.5 kB)
+2025-03-25 14:45:52,846 | sd | INFO | setup_common | Collecting protobuf==3.20.3
+2025-03-25 14:45:52,916 | sd | INFO | setup_common | Downloading protobuf-3.20.3-cp310-cp310-win_amd64.whl (904 kB)
+2025-03-25 14:45:53,083 | sd | INFO | setup_common | -------------------------------------- 904.0/904.0 kB 5.7 MB/s eta 0:00:00
+2025-03-25 14:45:53,715 | sd | INFO | setup_common | Collecting open-clip-torch==2.20.0
+2025-03-25 14:45:53,811 | sd | INFO | setup_common | Downloading open_clip_torch-2.20.0-py3-none-any.whl (1.5 MB)
+2025-03-25 14:45:54,122 | sd | INFO | setup_common | ---------------------------------------- 1.5/1.5 MB 4.7 MB/s eta 0:00:00
+2025-03-25 14:45:54,817 | sd | INFO | setup_common | Collecting opencv-python==4.10.0.84
+2025-03-25 14:45:54,891 | sd | INFO | setup_common | Downloading opencv_python-4.10.0.84-cp37-abi3-win_amd64.whl (38.8 MB)
+2025-03-25 14:46:02,084 | sd | INFO | setup_common | ---------------------------------------- 38.8/38.8 MB 5.1 MB/s eta 0:00:00
+2025-03-25 14:46:02,520 | sd | INFO | setup_common | Collecting prodigy-plus-schedule-free==1.8.0
+2025-03-25 14:46:02,602 | sd | INFO | setup_common | Downloading prodigy_plus_schedule_free-1.8.0-py3-none-any.whl (18 kB)
+2025-03-25 14:46:03,289 | sd | INFO | setup_common | Collecting pytorch-lightning==1.9.0
+2025-03-25 14:46:03,361 | sd | INFO | setup_common | Downloading pytorch_lightning-1.9.0-py3-none-any.whl (825 kB)
+2025-03-25 14:46:03,526 | sd | INFO | setup_common | -------------------------------------- 825.8/825.8 kB 4.7 MB/s eta 0:00:00
+2025-03-25 14:46:03,955 | sd | INFO | setup_common | Collecting safetensors==0.4.4
+2025-03-25 14:46:04,032 | sd | INFO | setup_common | Downloading safetensors-0.4.4-cp310-none-win_amd64.whl (285 kB)
+2025-03-25 14:46:04,101 | sd | INFO | setup_common | -------------------------------------- 285.9/285.9 kB 3.5 MB/s eta 0:00:00
+2025-03-25 14:46:04,716 | sd | INFO | setup_common | Collecting schedulefree==1.4
+2025-03-25 14:46:04,787 | sd | INFO | setup_common | Downloading schedulefree-1.4.tar.gz (22 kB)
+2025-03-25 14:46:04,904 | sd | INFO | setup_common | Installing build dependencies: started
+2025-03-25 14:46:11,071 | sd | INFO | setup_common | Installing build dependencies: finished with status 'done'
+2025-03-25 14:46:11,074 | sd | INFO | setup_common | Getting requirements to build wheel: started
+2025-03-25 14:46:11,322 | sd | INFO | setup_common | Getting requirements to build wheel: finished with status 'done'
+2025-03-25 14:46:11,326 | sd | INFO | setup_common | Preparing metadata (pyproject.toml): started
+2025-03-25 14:46:11,579 | sd | INFO | setup_common | Preparing metadata (pyproject.toml): finished with status 'done'
+2025-03-25 14:46:12,313 | sd | INFO | setup_common | Collecting scipy==1.11.4
+2025-03-25 14:46:12,395 | sd | INFO | setup_common | Downloading scipy-1.11.4-cp310-cp310-win_amd64.whl (44.1 MB)
+2025-03-25 14:46:20,722 | sd | INFO | setup_common | ---------------------------------------- 44.1/44.1 MB 4.9 MB/s eta 0:00:00
+2025-03-25 14:46:21,505 | sd | INFO | setup_common | Collecting sentencepiece==0.2.0
+2025-03-25 14:46:21,586 | sd | INFO | setup_common | Downloading sentencepiece-0.2.0-cp310-cp310-win_amd64.whl (991 kB)
+2025-03-25 14:46:21,801 | sd | INFO | setup_common | -------------------------------------- 991.5/991.5 kB 4.8 MB/s eta 0:00:00
+2025-03-25 14:46:22,444 | sd | INFO | setup_common | Collecting timm==0.6.12
+2025-03-25 14:46:22,514 | sd | INFO | setup_common | Downloading timm-0.6.12-py3-none-any.whl (549 kB)
+2025-03-25 14:46:22,632 | sd | INFO | setup_common | -------------------------------------- 549.1/549.1 kB 4.9 MB/s eta 0:00:00
+2025-03-25 14:46:23,460 | sd | INFO | setup_common | Collecting tk==0.1.0
+2025-03-25 14:46:23,531 | sd | INFO | setup_common | Downloading tk-0.1.0-py3-none-any.whl (3.9 kB)
+2025-03-25 14:46:24,168 | sd | INFO | setup_common | Collecting toml==0.10.2
+2025-03-25 14:46:24,243 | sd | INFO | setup_common | Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+2025-03-25 14:46:24,929 | sd | INFO | setup_common | Collecting transformers==4.44.2
+2025-03-25 14:46:25,000 | sd | INFO | setup_common | Downloading transformers-4.44.2-py3-none-any.whl (9.5 MB)
+2025-03-25 14:46:26,797 | sd | INFO | setup_common | ---------------------------------------- 9.5/9.5 MB 5.3 MB/s eta 0:00:00
+2025-03-25 14:46:27,467 | sd | INFO | setup_common | Collecting voluptuous==0.13.1
+2025-03-25 14:46:27,538 | sd | INFO | setup_common | Downloading voluptuous-0.13.1-py3-none-any.whl (29 kB)
+2025-03-25 14:46:27,963 | sd | INFO | setup_common | Collecting wandb==0.18.0
+2025-03-25 14:46:28,033 | sd | INFO | setup_common | Downloading wandb-0.18.0-py3-none-win_amd64.whl (6.6 MB)
+2025-03-25 14:46:29,329 | sd | INFO | setup_common | ---------------------------------------- 6.6/6.6 MB 5.2 MB/s eta 0:00:00
+2025-03-25 14:46:30,026 | sd | INFO | setup_common | Collecting filelock
+2025-03-25 14:46:30,101 | sd | INFO | setup_common | Downloading filelock-3.18.0-py3-none-any.whl (16 kB)
+2025-03-25 14:46:30,464 | sd | INFO | setup_common | Collecting fsspec
+2025-03-25 14:46:30,537 | sd | INFO | setup_common | Downloading fsspec-2025.3.0-py3-none-any.whl (193 kB)
+2025-03-25 14:46:30,579 | sd | INFO | setup_common | -------------------------------------- 193.6/193.6 kB 5.9 MB/s eta 0:00:00
+2025-03-25 14:46:31,234 | sd | INFO | setup_common | Collecting sympy==1.13.1
+2025-03-25 14:46:31,316 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/sympy-1.13.1-py3-none-any.whl (6.2 MB)
+2025-03-25 14:46:32,508 | sd | INFO | setup_common | ---------------------------------------- 6.2/6.2 MB 5.2 MB/s eta 0:00:00
+2025-03-25 14:46:32,865 | sd | INFO | setup_common | Collecting jinja2
+2025-03-25 14:46:32,933 | sd | INFO | setup_common | Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+2025-03-25 14:46:32,976 | sd | INFO | setup_common | -------------------------------------- 134.9/134.9 kB 2.7 MB/s eta 0:00:00
+2025-03-25 14:46:33,624 | sd | INFO | setup_common | Collecting networkx
+2025-03-25 14:46:33,695 | sd | INFO | setup_common | Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+2025-03-25 14:46:34,025 | sd | INFO | setup_common | ---------------------------------------- 1.7/1.7 MB 5.2 MB/s eta 0:00:00
+2025-03-25 14:46:34,690 | sd | INFO | setup_common | Collecting pillow!=8.3.*,>=5.3.0
+2025-03-25 14:46:34,772 | sd | INFO | setup_common | Downloading pillow-11.1.0-cp310-cp310-win_amd64.whl (2.6 MB)
+2025-03-25 14:46:35,258 | sd | INFO | setup_common | ---------------------------------------- 2.6/2.6 MB 5.4 MB/s eta 0:00:00
+2025-03-25 14:46:36,086 | sd | INFO | setup_common | Collecting numpy
+2025-03-25 14:46:36,163 | sd | INFO | setup_common | Downloading numpy-2.2.4-cp310-cp310-win_amd64.whl (12.9 MB)
+2025-03-25 14:46:38,862 | sd | INFO | setup_common | ---------------------------------------- 12.9/12.9 MB 4.6 MB/s eta 0:00:00
+2025-03-25 14:46:39,564 | sd | INFO | setup_common | Collecting coloredlogs
+2025-03-25 14:46:39,567 | sd | INFO | setup_common | Using cached coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+2025-03-25 14:46:40,215 | sd | INFO | setup_common | Collecting flatbuffers
+2025-03-25 14:46:40,286 | sd | INFO | setup_common | Downloading flatbuffers-25.2.10-py2.py3-none-any.whl (30 kB)
+2025-03-25 14:46:40,328 | sd | INFO | setup_common | Collecting numpy
+2025-03-25 14:46:40,407 | sd | INFO | setup_common | Downloading numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+2025-03-25 14:46:43,655 | sd | INFO | setup_common | ---------------------------------------- 15.8/15.8 MB 4.7 MB/s eta 0:00:00
+2025-03-25 14:46:44,435 | sd | INFO | setup_common | Collecting psutil
+2025-03-25 14:46:44,512 | sd | INFO | setup_common | Downloading psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+2025-03-25 14:46:44,626 | sd | INFO | setup_common | -------------------------------------- 244.9/244.9 kB 2.2 MB/s eta 0:00:00
+2025-03-25 14:46:45,311 | sd | INFO | setup_common | Collecting pyyaml
+2025-03-25 14:46:45,383 | sd | INFO | setup_common | Downloading PyYAML-6.0.2-cp310-cp310-win_amd64.whl (161 kB)
+2025-03-25 14:46:45,420 | sd | INFO | setup_common | -------------------------------------- 161.8/161.8 kB 4.9 MB/s eta 0:00:00
+2025-03-25 14:46:46,066 | sd | INFO | setup_common | Collecting entrypoints
+2025-03-25 14:46:46,145 | sd | INFO | setup_common | Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+2025-03-25 14:46:46,831 | sd | INFO | setup_common | Collecting jsonschema>=3.0
+2025-03-25 14:46:46,910 | sd | INFO | setup_common | Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+2025-03-25 14:46:46,973 | sd | INFO | setup_common | ---------------------------------------- 88.5/88.5 kB 1.7 MB/s eta 0:00:00
+2025-03-25 14:46:47,287 | sd | INFO | setup_common | Collecting toolz
+2025-03-25 14:46:47,357 | sd | INFO | setup_common | Downloading toolz-1.0.0-py3-none-any.whl (56 kB)
+2025-03-25 14:46:47,375 | sd | INFO | setup_common | ---------------------------------------- 56.4/56.4 kB 2.9 MB/s eta 0:00:00
+2025-03-25 14:46:48,107 | sd | INFO | setup_common | Collecting pandas>=0.18
+2025-03-25 14:46:48,185 | sd | INFO | setup_common | Downloading pandas-2.2.3-cp310-cp310-win_amd64.whl (11.6 MB)
+2025-03-25 14:46:50,467 | sd | INFO | setup_common | ---------------------------------------- 11.6/11.6 MB 5.3 MB/s eta 0:00:00
+2025-03-25 14:46:51,190 | sd | INFO | setup_common | Collecting requests
+2025-03-25 14:46:51,263 | sd | INFO | setup_common | Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+2025-03-25 14:46:51,275 | sd | INFO | setup_common | ---------------------------------------- 64.9/64.9 kB 3.6 MB/s eta 0:00:00
+2025-03-25 14:46:52,276 | sd | INFO | setup_common | Collecting regex!=2019.12.17
+2025-03-25 14:46:52,347 | sd | INFO | setup_common | Downloading regex-2024.11.6-cp310-cp310-win_amd64.whl (274 kB)
+2025-03-25 14:46:52,435 | sd | INFO | setup_common | -------------------------------------- 274.0/274.0 kB 3.4 MB/s eta 0:00:00
+2025-03-25 14:46:53,083 | sd | INFO | setup_common | Collecting importlib-metadata
+2025-03-25 14:46:53,151 | sd | INFO | setup_common | Downloading importlib_metadata-8.6.1-py3-none-any.whl (26 kB)
+2025-03-25 14:46:53,500 | sd | INFO | setup_common | Collecting wcwidth>=0.2.5
+2025-03-25 14:46:53,577 | sd | INFO | setup_common | Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+2025-03-25 14:46:53,987 | sd | INFO | setup_common | Collecting markupsafe~=2.0
+2025-03-25 14:46:54,059 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/MarkupSafe-2.1.5-cp310-cp310-win_amd64.whl (17 kB)
+2025-03-25 14:46:54,392 | sd | INFO | setup_common | Collecting safehttpx<1.0,>=0.1.1
+2025-03-25 14:46:54,480 | sd | INFO | setup_common | Downloading safehttpx-0.1.6-py3-none-any.whl (8.7 kB)
+2025-03-25 14:46:55,168 | sd | INFO | setup_common | Collecting typer<1.0,>=0.12
+2025-03-25 14:46:55,241 | sd | INFO | setup_common | Downloading typer-0.15.2-py3-none-any.whl (45 kB)
+2025-03-25 14:46:55,251 | sd | INFO | setup_common | ---------------------------------------- 45.1/45.1 kB ? eta 0:00:00
+2025-03-25 14:46:56,263 | sd | INFO | setup_common | Collecting ruff>=0.2.2
+2025-03-25 14:46:56,338 | sd | INFO | setup_common | Downloading ruff-0.11.2-py3-none-win_amd64.whl (11.4 MB)
+2025-03-25 14:46:58,582 | sd | INFO | setup_common | ---------------------------------------- 11.4/11.4 MB 5.0 MB/s eta 0:00:00
+2025-03-25 14:46:58,972 | sd | INFO | setup_common | Collecting pydub
+2025-03-25 14:46:59,048 | sd | INFO | setup_common | Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+2025-03-25 14:46:59,544 | sd | INFO | setup_common | Collecting pydantic>=2.0
+2025-03-25 14:46:59,615 | sd | INFO | setup_common | Downloading pydantic-2.10.6-py3-none-any.whl (431 kB)
+2025-03-25 14:46:59,758 | sd | INFO | setup_common | -------------------------------------- 431.7/431.7 kB 3.4 MB/s eta 0:00:00
+2025-03-25 14:47:00,110 | sd | INFO | setup_common | Collecting starlette<1.0,>=0.40.0
+2025-03-25 14:47:00,181 | sd | INFO | setup_common | Downloading starlette-0.46.1-py3-none-any.whl (71 kB)
+2025-03-25 14:47:00,206 | sd | INFO | setup_common | ---------------------------------------- 72.0/72.0 kB 3.9 MB/s eta 0:00:00
+2025-03-25 14:47:00,539 | sd | INFO | setup_common | Collecting semantic-version~=2.0
+2025-03-25 14:47:00,614 | sd | INFO | setup_common | Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+2025-03-25 14:47:01,279 | sd | INFO | setup_common | Collecting python-multipart==0.0.12
+2025-03-25 14:47:01,361 | sd | INFO | setup_common | Downloading python_multipart-0.0.12-py3-none-any.whl (23 kB)
+2025-03-25 14:47:02,066 | sd | INFO | setup_common | Collecting fastapi<1.0,>=0.115.2
+2025-03-25 14:47:02,141 | sd | INFO | setup_common | Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)
+2025-03-25 14:47:02,164 | sd | INFO | setup_common | ---------------------------------------- 95.2/95.2 kB 5.3 MB/s eta 0:00:00
+2025-03-25 14:47:03,040 | sd | INFO | setup_common | Collecting orjson~=3.0
+2025-03-25 14:47:03,121 | sd | INFO | setup_common | Downloading orjson-3.10.16-cp310-cp310-win_amd64.whl (133 kB)
+2025-03-25 14:47:03,148 | sd | INFO | setup_common | -------------------------------------- 133.8/133.8 kB 4.0 MB/s eta 0:00:00
+2025-03-25 14:47:03,802 | sd | INFO | setup_common | Collecting ffmpy
+2025-03-25 14:47:03,872 | sd | INFO | setup_common | Downloading ffmpy-0.5.0-py3-none-any.whl (6.0 kB)
+2025-03-25 14:47:04,196 | sd | INFO | setup_common | Collecting anyio<5.0,>=3.0
+2025-03-25 14:47:04,288 | sd | INFO | setup_common | Downloading anyio-4.9.0-py3-none-any.whl (100 kB)
+2025-03-25 14:47:04,311 | sd | INFO | setup_common | -------------------------------------- 100.9/100.9 kB 6.0 MB/s eta 0:00:00
+2025-03-25 14:47:04,930 | sd | INFO | setup_common | Collecting gradio-client==1.4.2
+2025-03-25 14:47:05,012 | sd | INFO | setup_common | Downloading gradio_client-1.4.2-py3-none-any.whl (319 kB)
+2025-03-25 14:47:05,092 | sd | INFO | setup_common | -------------------------------------- 319.8/319.8 kB 4.0 MB/s eta 0:00:00
+2025-03-25 14:47:05,749 | sd | INFO | setup_common | Collecting uvicorn>=0.14.0
+2025-03-25 14:47:05,818 | sd | INFO | setup_common | Downloading uvicorn-0.34.0-py3-none-any.whl (62 kB)
+2025-03-25 14:47:05,836 | sd | INFO | setup_common | ---------------------------------------- 62.3/62.3 kB 3.3 MB/s eta 0:00:00
+2025-03-25 14:47:06,495 | sd | INFO | setup_common | Collecting tomlkit==0.12.0
+2025-03-25 14:47:06,584 | sd | INFO | setup_common | Downloading tomlkit-0.12.0-py3-none-any.whl (37 kB)
+2025-03-25 14:47:07,252 | sd | INFO | setup_common | Collecting httpx>=0.24.1
+2025-03-25 14:47:07,325 | sd | INFO | setup_common | Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+2025-03-25 14:47:07,339 | sd | INFO | setup_common | ---------------------------------------- 73.5/73.5 kB 4.0 MB/s eta 0:00:00
+2025-03-25 14:47:08,033 | sd | INFO | setup_common | Collecting tqdm>=4.42.1
+2025-03-25 14:47:08,110 | sd | INFO | setup_common | Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+2025-03-25 14:47:08,137 | sd | INFO | setup_common | ---------------------------------------- 78.5/78.5 kB 4.3 MB/s eta 0:00:00
+2025-03-25 14:47:08,836 | sd | INFO | setup_common | Collecting PyWavelets>=1.1.1
+2025-03-25 14:47:08,911 | sd | INFO | setup_common | Downloading pywavelets-1.8.0-cp310-cp310-win_amd64.whl (4.2 MB)
+2025-03-25 14:47:09,809 | sd | INFO | setup_common | ---------------------------------------- 4.2/4.2 MB 4.7 MB/s eta 0:00:00
+2025-03-25 14:47:10,466 | sd | INFO | setup_common | Collecting antlr4-python3-runtime==4.9.*
+2025-03-25 14:47:10,546 | sd | INFO | setup_common | Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+2025-03-25 14:47:10,582 | sd | INFO | setup_common | -------------------------------------- 117.0/117.0 kB 3.4 MB/s eta 0:00:00
+2025-03-25 14:47:10,839 | sd | INFO | setup_common | Preparing metadata (setup.py): started
+2025-03-25 14:47:11,167 | sd | INFO | setup_common | Preparing metadata (setup.py): finished with status 'done'
+2025-03-25 14:47:11,902 | sd | INFO | setup_common | Collecting torchmetrics>=0.7.0
+2025-03-25 14:47:11,978 | sd | INFO | setup_common | Downloading torchmetrics-1.7.0-py3-none-any.whl (960 kB)
+2025-03-25 14:47:12,204 | sd | INFO | setup_common | -------------------------------------- 960.9/960.9 kB 4.3 MB/s eta 0:00:00
+2025-03-25 14:47:12,885 | sd | INFO | setup_common | Collecting lightning-utilities>=0.4.2
+2025-03-25 14:47:12,955 | sd | INFO | setup_common | Downloading lightning_utilities-0.14.2-py3-none-any.whl (28 kB)
+2025-03-25 14:47:13,748 | sd | INFO | setup_common | Collecting tokenizers<0.20,>=0.19
+2025-03-25 14:47:13,819 | sd | INFO | setup_common | Downloading tokenizers-0.19.1-cp310-none-win_amd64.whl (2.2 MB)
+2025-03-25 14:47:14,318 | sd | INFO | setup_common | ---------------------------------------- 2.2/2.2 MB 4.6 MB/s eta 0:00:00
+2025-03-25 14:47:14,734 | sd | INFO | setup_common | Collecting sentry-sdk>=1.0.0
+2025-03-25 14:47:14,807 | sd | INFO | setup_common | Downloading sentry_sdk-2.24.1-py2.py3-none-any.whl (336 kB)
+2025-03-25 14:47:14,920 | sd | INFO | setup_common | -------------------------------------- 336.9/336.9 kB 3.0 MB/s eta 0:00:00
+2025-03-25 14:47:15,555 | sd | INFO | setup_common | Collecting click!=8.0.0,>=7.1
+2025-03-25 14:47:15,644 | sd | INFO | setup_common | Downloading click-8.1.8-py3-none-any.whl (98 kB)
+2025-03-25 14:47:15,664 | sd | INFO | setup_common | ---------------------------------------- 98.2/98.2 kB 5.5 MB/s eta 0:00:00
+2025-03-25 14:47:16,315 | sd | INFO | setup_common | Collecting gitpython!=3.1.29,>=1.0.0
+2025-03-25 14:47:16,385 | sd | INFO | setup_common | Downloading GitPython-3.1.44-py3-none-any.whl (207 kB)
+2025-03-25 14:47:16,472 | sd | INFO | setup_common | -------------------------------------- 207.6/207.6 kB 2.5 MB/s eta 0:00:00
+2025-03-25 14:47:17,102 | sd | INFO | setup_common | Collecting docker-pycreds>=0.4.0
+2025-03-25 14:47:17,171 | sd | INFO | setup_common | Downloading docker_pycreds-0.4.0-py2.py3-none-any.whl (9.0 kB)
+2025-03-25 14:47:17,847 | sd | INFO | setup_common | Collecting platformdirs
+2025-03-25 14:47:17,918 | sd | INFO | setup_common | Downloading platformdirs-4.3.7-py3-none-any.whl (18 kB)
+2025-03-25 14:47:18,628 | sd | INFO | setup_common | Collecting setproctitle
+2025-03-25 14:47:18,705 | sd | INFO | setup_common | Downloading setproctitle-1.3.5-cp310-cp310-win_amd64.whl (12 kB)
+2025-03-25 14:47:19,139 | sd | INFO | setup_common | Collecting websockets<13.0,>=10.0
+2025-03-25 14:47:19,214 | sd | INFO | setup_common | Downloading websockets-12.0-cp310-cp310-win_amd64.whl (124 kB)
+2025-03-25 14:47:19,244 | sd | INFO | setup_common | -------------------------------------- 125.0/125.0 kB 3.7 MB/s eta 0:00:00
+2025-03-25 14:47:19,588 | sd | INFO | setup_common | Collecting mpmath<1.4,>=1.1.0
+2025-03-25 14:47:19,668 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+2025-03-25 14:47:19,776 | sd | INFO | setup_common | -------------------------------------- 536.2/536.2 kB 4.8 MB/s eta 0:00:00
+2025-03-25 14:47:20,891 | sd | INFO | setup_common | Collecting grpcio>=1.48.2
+2025-03-25 14:47:20,962 | sd | INFO | setup_common | Downloading grpcio-1.71.0-cp310-cp310-win_amd64.whl (4.3 MB)
+2025-03-25 14:47:21,871 | sd | INFO | setup_common | ---------------------------------------- 4.3/4.3 MB 4.7 MB/s eta 0:00:00
+2025-03-25 14:47:22,514 | sd | INFO | setup_common | Collecting markdown>=2.6.8
+2025-03-25 14:47:22,588 | sd | INFO | setup_common | Downloading Markdown-3.7-py3-none-any.whl (106 kB)
+2025-03-25 14:47:22,613 | sd | INFO | setup_common | -------------------------------------- 106.3/106.3 kB 6.4 MB/s eta 0:00:00
+2025-03-25 14:47:23,251 | sd | INFO | setup_common | Collecting tensorboard-data-server<0.8.0,>=0.7.0
+2025-03-25 14:47:23,320 | sd | INFO | setup_common | Downloading tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+2025-03-25 14:47:23,962 | sd | INFO | setup_common | Collecting absl-py>=0.4
+2025-03-25 14:47:24,034 | sd | INFO | setup_common | Downloading absl_py-2.2.0-py3-none-any.whl (276 kB)
+2025-03-25 14:47:24,097 | sd | INFO | setup_common | -------------------------------------- 277.0/277.0 kB 5.7 MB/s eta 0:00:00
+2025-03-25 14:47:24,724 | sd | INFO | setup_common | Collecting six>1.9
+2025-03-25 14:47:24,793 | sd | INFO | setup_common | Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2025-03-25 14:47:25,484 | sd | INFO | setup_common | Collecting werkzeug>=1.0.1
+2025-03-25 14:47:25,549 | sd | INFO | setup_common | Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+2025-03-25 14:47:25,605 | sd | INFO | setup_common | -------------------------------------- 224.5/224.5 kB 4.6 MB/s eta 0:00:00
+2025-03-25 14:47:26,242 | sd | INFO | setup_common | Collecting libclang>=13.0.0
+2025-03-25 14:47:26,315 | sd | INFO | setup_common | Downloading libclang-18.1.1-py2.py3-none-win_amd64.whl (26.4 MB)
+2025-03-25 14:47:31,239 | sd | INFO | setup_common | ---------------------------------------- 26.4/26.4 MB 5.1 MB/s eta 0:00:00
+2025-03-25 14:47:31,962 | sd | INFO | setup_common | Collecting opt-einsum>=2.3.2
+2025-03-25 14:47:32,030 | sd | INFO | setup_common | Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+2025-03-25 14:47:32,050 | sd | INFO | setup_common | ---------------------------------------- 71.9/71.9 kB ? eta 0:00:00
+2025-03-25 14:47:32,711 | sd | INFO | setup_common | Collecting tensorflow-io-gcs-filesystem>=0.23.1
+2025-03-25 14:47:32,783 | sd | INFO | setup_common | Downloading tensorflow_io_gcs_filesystem-0.31.0-cp310-cp310-win_amd64.whl (1.5 MB)
+2025-03-25 14:47:33,068 | sd | INFO | setup_common | ---------------------------------------- 1.5/1.5 MB 5.3 MB/s eta 0:00:00
+2025-03-25 14:47:33,402 | sd | INFO | setup_common | Collecting astunparse>=1.6.0
+2025-03-25 14:47:33,470 | sd | INFO | setup_common | Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+2025-03-25 14:47:34,101 | sd | INFO | setup_common | Collecting gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1
+2025-03-25 14:47:34,200 | sd | INFO | setup_common | Downloading gast-0.6.0-py3-none-any.whl (21 kB)
+2025-03-25 14:47:34,922 | sd | INFO | setup_common | Collecting wrapt>=1.11.0
+2025-03-25 14:47:34,991 | sd | INFO | setup_common | Downloading wrapt-1.17.2-cp310-cp310-win_amd64.whl (38 kB)
+2025-03-25 14:47:35,648 | sd | INFO | setup_common | Collecting keras>=3.5.0
+2025-03-25 14:47:35,721 | sd | INFO | setup_common | Downloading keras-3.9.0-py3-none-any.whl (1.3 MB)
+2025-03-25 14:47:35,988 | sd | INFO | setup_common | ---------------------------------------- 1.3/1.3 MB 5.3 MB/s eta 0:00:00
+2025-03-25 14:47:36,804 | sd | INFO | setup_common | Collecting ml-dtypes<1.0.0,>=0.5.1
+2025-03-25 14:47:36,885 | sd | INFO | setup_common | Downloading ml_dtypes-0.5.1-cp310-cp310-win_amd64.whl (209 kB)
+2025-03-25 14:47:36,918 | sd | INFO | setup_common | -------------------------------------- 209.7/209.7 kB 6.4 MB/s eta 0:00:00
+2025-03-25 14:47:37,584 | sd | INFO | setup_common | Collecting h5py>=3.11.0
+2025-03-25 14:47:37,660 | sd | INFO | setup_common | Downloading h5py-3.13.0-cp310-cp310-win_amd64.whl (3.0 MB)
+2025-03-25 14:47:38,236 | sd | INFO | setup_common | ---------------------------------------- 3.0/3.0 MB 5.4 MB/s eta 0:00:00
+2025-03-25 14:47:38,876 | sd | INFO | setup_common | Collecting termcolor>=1.1.0
+2025-03-25 14:47:38,967 | sd | INFO | setup_common | Downloading termcolor-2.5.0-py3-none-any.whl (7.8 kB)
+2025-03-25 14:47:39,616 | sd | INFO | setup_common | Collecting google-pasta>=0.1.1
+2025-03-25 14:47:39,682 | sd | INFO | setup_common | Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+2025-03-25 14:47:39,714 | sd | INFO | setup_common | ---------------------------------------- 57.5/57.5 kB 1.5 MB/s eta 0:00:00
+2025-03-25 14:47:40,371 | sd | INFO | setup_common | Collecting exceptiongroup>=1.0.2
+2025-03-25 14:47:40,462 | sd | INFO | setup_common | Downloading exceptiongroup-1.2.2-py3-none-any.whl (16 kB)
+2025-03-25 14:47:40,800 | sd | INFO | setup_common | Collecting sniffio>=1.1
+2025-03-25 14:47:40,869 | sd | INFO | setup_common | Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+2025-03-25 14:47:41,514 | sd | INFO | setup_common | Collecting idna>=2.8
+2025-03-25 14:47:41,596 | sd | INFO | setup_common | Downloading idna-3.10-py3-none-any.whl (70 kB)
+2025-03-25 14:47:41,619 | sd | INFO | setup_common | ---------------------------------------- 70.4/70.4 kB 1.9 MB/s eta 0:00:00
+2025-03-25 14:47:42,262 | sd | INFO | setup_common | Collecting wheel<1.0,>=0.23.0
+2025-03-25 14:47:42,264 | sd | INFO | setup_common | Using cached wheel-0.45.1-py3-none-any.whl (72 kB)
+2025-03-25 14:47:42,907 | sd | INFO | setup_common | Collecting colorama
+2025-03-25 14:47:43,165 | sd | INFO | setup_common | Downloading https://download.pytorch.org/whl/colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+2025-03-25 14:47:44,273 | sd | INFO | setup_common | Collecting aiohttp!=4.0.0a0,!=4.0.0a1
+2025-03-25 14:47:44,342 | sd | INFO | setup_common | Downloading aiohttp-3.11.14-cp310-cp310-win_amd64.whl (442 kB)
+2025-03-25 14:47:44,433 | sd | INFO | setup_common | -------------------------------------- 442.9/442.9 kB 4.7 MB/s eta 0:00:00
+2025-03-25 14:47:45,079 | sd | INFO | setup_common | Collecting gitdb<5,>=4.0.1
+2025-03-25 14:47:45,148 | sd | INFO | setup_common | Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+2025-03-25 14:47:45,168 | sd | INFO | setup_common | ---------------------------------------- 62.8/62.8 kB 3.3 MB/s eta 0:00:00
+2025-03-25 14:47:45,829 | sd | INFO | setup_common | Collecting httpcore==1.*
+2025-03-25 14:47:45,902 | sd | INFO | setup_common | Downloading httpcore-1.0.7-py3-none-any.whl (78 kB)
+2025-03-25 14:47:45,914 | sd | INFO | setup_common | ---------------------------------------- 78.6/78.6 kB 4.3 MB/s eta 0:00:00
+2025-03-25 14:47:46,535 | sd | INFO | setup_common | Collecting certifi
+2025-03-25 14:47:46,608 | sd | INFO | setup_common | Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+2025-03-25 14:47:46,651 | sd | INFO | setup_common | -------------------------------------- 166.4/166.4 kB 3.3 MB/s eta 0:00:00
+2025-03-25 14:47:46,970 | sd | INFO | setup_common | Collecting h11<0.15,>=0.13
+2025-03-25 14:47:47,041 | sd | INFO | setup_common | Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+2025-03-25 14:47:47,056 | sd | INFO | setup_common | ---------------------------------------- 58.3/58.3 kB 3.2 MB/s eta 0:00:00
+2025-03-25 14:47:47,900 | sd | INFO | setup_common | Collecting rpds-py>=0.7.1
+2025-03-25 14:47:47,967 | sd | INFO | setup_common | Downloading rpds_py-0.23.1-cp310-cp310-win_amd64.whl (232 kB)
+2025-03-25 14:47:48,009 | sd | INFO | setup_common | -------------------------------------- 232.6/232.6 kB 4.7 MB/s eta 0:00:00
+2025-03-25 14:47:48,335 | sd | INFO | setup_common | Collecting jsonschema-specifications>=2023.03.6
+2025-03-25 14:47:48,409 | sd | INFO | setup_common | Downloading jsonschema_specifications-2024.10.1-py3-none-any.whl (18 kB)
+2025-03-25 14:47:48,731 | sd | INFO | setup_common | Collecting attrs>=22.2.0
+2025-03-25 14:47:48,808 | sd | INFO | setup_common | Downloading attrs-25.3.0-py3-none-any.whl (63 kB)
+2025-03-25 14:47:48,822 | sd | INFO | setup_common | ---------------------------------------- 63.8/63.8 kB 3.3 MB/s eta 0:00:00
+2025-03-25 14:47:49,181 | sd | INFO | setup_common | Collecting referencing>=0.28.4
+2025-03-25 14:47:49,255 | sd | INFO | setup_common | Downloading referencing-0.36.2-py3-none-any.whl (26 kB)
+2025-03-25 14:47:49,656 | sd | INFO | setup_common | Collecting optree
+2025-03-25 14:47:49,736 | sd | INFO | setup_common | Downloading optree-0.14.1-cp310-cp310-win_amd64.whl (296 kB)
+2025-03-25 14:47:49,810 | sd | INFO | setup_common | -------------------------------------- 296.5/296.5 kB 3.7 MB/s eta 0:00:00
+2025-03-25 14:47:50,119 | sd | INFO | setup_common | Collecting namex
+2025-03-25 14:47:50,189 | sd | INFO | setup_common | Downloading namex-0.0.8-py3-none-any.whl (5.8 kB)
+2025-03-25 14:47:50,639 | sd | INFO | setup_common | Collecting python-dateutil>=2.8.2
+2025-03-25 14:47:50,727 | sd | INFO | setup_common | Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2025-03-25 14:47:50,780 | sd | INFO | setup_common | -------------------------------------- 229.9/229.9 kB 4.7 MB/s eta 0:00:00
+2025-03-25 14:47:51,436 | sd | INFO | setup_common | Collecting pytz>=2020.1
+2025-03-25 14:47:51,508 | sd | INFO | setup_common | Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+2025-03-25 14:47:51,657 | sd | INFO | setup_common | -------------------------------------- 509.2/509.2 kB 3.6 MB/s eta 0:00:00
+2025-03-25 14:47:52,303 | sd | INFO | setup_common | Collecting tzdata>=2022.7
+2025-03-25 14:47:52,377 | sd | INFO | setup_common | Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+2025-03-25 14:47:52,447 | sd | INFO | setup_common | -------------------------------------- 347.8/347.8 kB 5.4 MB/s eta 0:00:00
+2025-03-25 14:47:53,796 | sd | INFO | setup_common | Collecting pydantic-core==2.27.2
+2025-03-25 14:47:53,870 | sd | INFO | setup_common | Downloading pydantic_core-2.27.2-cp310-cp310-win_amd64.whl (2.0 MB)
+2025-03-25 14:47:54,294 | sd | INFO | setup_common | ---------------------------------------- 2.0/2.0 MB 4.7 MB/s eta 0:00:00
+2025-03-25 14:47:54,619 | sd | INFO | setup_common | Collecting annotated-types>=0.6.0
+2025-03-25 14:47:54,690 | sd | INFO | setup_common | Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+2025-03-25 14:47:55,128 | sd | INFO | setup_common | Collecting charset-normalizer<4,>=2
+2025-03-25 14:47:55,204 | sd | INFO | setup_common | Downloading charset_normalizer-3.4.1-cp310-cp310-win_amd64.whl (102 kB)
+2025-03-25 14:47:55,243 | sd | INFO | setup_common | -------------------------------------- 102.8/102.8 kB 2.0 MB/s eta 0:00:00
+2025-03-25 14:47:55,593 | sd | INFO | setup_common | Collecting urllib3<3,>=1.21.1
+2025-03-25 14:47:55,661 | sd | INFO | setup_common | Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+2025-03-25 14:47:55,696 | sd | INFO | setup_common | -------------------------------------- 128.4/128.4 kB 3.8 MB/s eta 0:00:00
+2025-03-25 14:47:56,522 | sd | INFO | setup_common | Collecting shellingham>=1.3.0
+2025-03-25 14:47:56,595 | sd | INFO | setup_common | Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+2025-03-25 14:47:57,289 | sd | INFO | setup_common | Collecting humanfriendly>=9.1
+2025-03-25 14:47:57,293 | sd | INFO | setup_common | Using cached humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+2025-03-25 14:47:58,062 | sd | INFO | setup_common | Collecting zipp>=3.20
+2025-03-25 14:47:58,128 | sd | INFO | setup_common | Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+2025-03-25 14:47:58,511 | sd | INFO | setup_common | Collecting async-timeout<6.0,>=4.0
+2025-03-25 14:47:58,580 | sd | INFO | setup_common | Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+2025-03-25 14:47:58,915 | sd | INFO | setup_common | Collecting aiosignal>=1.1.2
+2025-03-25 14:47:58,983 | sd | INFO | setup_common | Downloading aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+2025-03-25 14:47:59,848 | sd | INFO | setup_common | Collecting yarl<2.0,>=1.17.0
+2025-03-25 14:47:59,922 | sd | INFO | setup_common | Downloading yarl-1.18.3-cp310-cp310-win_amd64.whl (90 kB)
+2025-03-25 14:47:59,955 | sd | INFO | setup_common | ---------------------------------------- 90.5/90.5 kB 2.6 MB/s eta 0:00:00
+2025-03-25 14:48:00,568 | sd | INFO | setup_common | Collecting aiohappyeyeballs>=2.3.0
+2025-03-25 14:48:00,636 | sd | INFO | setup_common | Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+2025-03-25 14:48:01,414 | sd | INFO | setup_common | Collecting multidict<7.0,>=4.5
+2025-03-25 14:48:01,485 | sd | INFO | setup_common | Downloading multidict-6.2.0-cp310-cp310-win_amd64.whl (29 kB)
+2025-03-25 14:48:02,148 | sd | INFO | setup_common | Collecting propcache>=0.2.0
+2025-03-25 14:48:02,218 | sd | INFO | setup_common | Downloading propcache-0.3.0-cp310-cp310-win_amd64.whl (44 kB)
+2025-03-25 14:48:02,234 | sd | INFO | setup_common | ---------------------------------------- 44.7/44.7 kB 2.3 MB/s eta 0:00:00
+2025-03-25 14:48:02,893 | sd | INFO | setup_common | Collecting frozenlist>=1.1.1
+2025-03-25 14:48:02,963 | sd | INFO | setup_common | Downloading frozenlist-1.5.0-cp310-cp310-win_amd64.whl (51 kB)
+2025-03-25 14:48:02,983 | sd | INFO | setup_common | ---------------------------------------- 51.6/51.6 kB ? eta 0:00:00
+2025-03-25 14:48:03,695 | sd | INFO | setup_common | Collecting smmap<6,>=3.0.1
+2025-03-25 14:48:03,763 | sd | INFO | setup_common | Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+2025-03-25 14:48:04,148 | sd | INFO | setup_common | Collecting pyreadline3
+2025-03-25 14:48:04,218 | sd | INFO | setup_common | Downloading pyreadline3-3.5.4-py3-none-any.whl (83 kB)
+2025-03-25 14:48:04,237 | sd | INFO | setup_common | ---------------------------------------- 83.2/83.2 kB ? eta 0:00:00
+2025-03-25 14:48:04,545 | sd | INFO | setup_common | Building wheels for collected packages: dadaptation, fairscale, schedulefree
+2025-03-25 14:48:04,549 | sd | INFO | setup_common | Building wheel for dadaptation (pyproject.toml): started
+2025-03-25 14:48:04,917 | sd | INFO | setup_common | Building wheel for dadaptation (pyproject.toml): finished with status 'done'
+2025-03-25 14:48:04,924 | sd | INFO | setup_common | Created wheel for dadaptation: filename=dadaptation-3.2-py3-none-any.whl size=23310 sha256=21671167ca44c32e93c32c4b3dfdad3b5d13216609c3f661b38e1949c0585ae3
+2025-03-25 14:48:04,927 | sd | INFO | setup_common | Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\d0\03\6d\feba04df15ef39d9ac4e3504058ac2a88fb2ef9183ba92b111
+2025-03-25 14:48:04,935 | sd | INFO | setup_common | Building wheel for fairscale (pyproject.toml): started
+2025-03-25 14:48:06,137 | sd | INFO | setup_common | Building wheel for fairscale (pyproject.toml): finished with status 'done'
+2025-03-25 14:48:06,144 | sd | INFO | setup_common | Created wheel for fairscale: filename=fairscale-0.4.13-py3-none-any.whl size=332215 sha256=ed03ecbc09e98fb5656ed713232ae49e8e4a8eaa071078d1e625b4765848d050
+2025-03-25 14:48:06,145 | sd | INFO | setup_common | Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\78\a4\c0\fb0a7ef03cff161611c3fa40c6cf898f76e58ec421b88e8cb3
+2025-03-25 14:48:06,152 | sd | INFO | setup_common | Building wheel for schedulefree (pyproject.toml): started
+2025-03-25 14:48:06,526 | sd | INFO | setup_common | Building wheel for schedulefree (pyproject.toml): finished with status 'done'
+2025-03-25 14:48:06,532 | sd | INFO | setup_common | Created wheel for schedulefree: filename=schedulefree-1.4-py3-none-any.whl size=39368 sha256=f46a205f00f9acda77de0f09a2593d5d7c9c5ca06ad43bc76e7dcf03f42222cd
+2025-03-25 14:48:06,534 | sd | INFO | setup_common | Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\04\4f\8e\15e0ac6c13041e94078d9e4f88d14c2cd00ec198bc0fc78e91
+2025-03-25 14:48:06,537 | sd | INFO | setup_common | Successfully built dadaptation fairscale schedulefree
+2025-03-25 14:48:07,639 | sd | INFO | setup_common | Installing collected packages: wcwidth, voluptuous, tk, sentencepiece, pytz, pydub, namex, mpmath, library, libclang, flatbuffers, easygui, antlr4-python3-runtime, zipp, wrapt, wheel, websockets, urllib3, tzdata, toolz, tomlkit, toml, termcolor, tensorflow-io-gcs-filesystem, tensorboard-data-server, sympy, sniffio, smmap, six, shellingham, setproctitle, semantic-version, schedulefree, safetensors, ruff, rpds-py, regex, pyyaml, python-multipart, pyreadline3, pydantic-core, psutil, protobuf, propcache, prodigyopt, platformdirs, pillow, orjson, optree, opt-einsum, numpy, networkx, multidict, markupsafe, markdown, lightning-utilities, imagesize, idna, h11, grpcio, gast, ftfy, fsspec, frozenlist, filelock, ffmpy, exceptiongroup, entrypoints, einops, dadaptation, colorama, charset-normalizer, certifi, attrs, async-timeout, annotated-types, aiohappyeyeballs, aiofiles, absl-py, yarl, werkzeug, tqdm, sentry-sdk, scipy, requests, referencing, PyWavelets, python-dateutil, pydantic, opencv-python, onnx, omegaconf, ml-dtypes, jinja2, importlib-metadata, humanfriendly, httpcore, h5py, google-pasta, gitdb, docker-pycreds, click, astunparse, anyio, aiosignal, uvicorn, typer, torch, tensorboard, starlette, pandas, keras, jsonschema-specifications, huggingface-hub, httpx, gitpython, coloredlogs, aiohttp, xformers, wandb, torchvision, torchmetrics, tokenizers, tensorflow, safehttpx, prodigy-plus-schedule-free, onnxruntime-gpu, lycoris_lora, lion-pytorch, jsonschema, invisible-watermark, gradio-client, fastapi, fairscale, diffusers, bitsandbytes, accelerate, transformers, timm, pytorch-lightning, gradio, altair, open-clip-torch
+2025-03-25 14:48:15,744 | sd | INFO | setup_common | Running setup.py develop for library
+2025-03-25 14:48:19,791 | sd | INFO | setup_common | Running setup.py install for antlr4-python3-runtime: started
+2025-03-25 14:48:20,929 | sd | INFO | setup_common | Running setup.py install for antlr4-python3-runtime: finished with status 'done'
+2025-03-25 14:56:49,191 | sd | INFO | setup_common | Running setup.py install for lycoris_lora: started
+2025-03-25 14:56:50,588 | sd | INFO | setup_common | Running setup.py install for lycoris_lora: finished with status 'done'
+2025-03-25 14:58:23,089 | sd | INFO | setup_common | Successfully installed PyWavelets-1.8.0 absl-py-2.2.0 accelerate-0.33.0 aiofiles-23.2.1 aiohappyeyeballs-2.6.1 aiohttp-3.11.14 aiosignal-1.3.2 altair-4.2.2 annotated-types-0.7.0 antlr4-python3-runtime-4.9.3 anyio-4.9.0 astunparse-1.6.3 async-timeout-5.0.1 attrs-25.3.0 bitsandbytes-0.44.0 certifi-2025.1.31 charset-normalizer-3.4.1 click-8.1.8 colorama-0.4.6 coloredlogs-15.0.1 dadaptation-3.2 diffusers-0.25.0 docker-pycreds-0.4.0 easygui-0.98.3 einops-0.7.0 entrypoints-0.4 exceptiongroup-1.2.2 fairscale-0.4.13 fastapi-0.115.12 ffmpy-0.5.0 filelock-3.18.0 flatbuffers-25.2.10 frozenlist-1.5.0 fsspec-2025.3.0 ftfy-6.1.1 gast-0.6.0 gitdb-4.0.12 gitpython-3.1.44 google-pasta-0.2.0 gradio-5.4.0 gradio-client-1.4.2 grpcio-1.71.0 h11-0.14.0 h5py-3.13.0 httpcore-1.0.7 httpx-0.28.1 huggingface-hub-0.25.2 humanfriendly-10.0 idna-3.10 imagesize-1.4.1 importlib-metadata-8.6.1 invisible-watermark-0.2.0 jinja2-3.1.6 jsonschema-4.23.0 jsonschema-specifications-2024.10.1 keras-3.9.0 libclang-18.1.1 library-0.0.0 lightning-utilities-0.14.2 lion-pytorch-0.0.6 lycoris_lora-3.1.0 markdown-3.7 markupsafe-2.1.5 ml-dtypes-0.5.1 mpmath-1.3.0 multidict-6.2.0 namex-0.0.8 networkx-3.4.2 numpy-1.26.4 omegaconf-2.3.0 onnx-1.16.1 onnxruntime-gpu-1.19.2 open-clip-torch-2.20.0 opencv-python-4.10.0.84 opt-einsum-3.4.0 optree-0.14.1 orjson-3.10.16 pandas-2.2.3 pillow-11.1.0 platformdirs-4.3.7 prodigy-plus-schedule-free-1.8.0 prodigyopt-1.0 propcache-0.3.0 protobuf-3.20.3 psutil-7.0.0 pydantic-2.10.6 pydantic-core-2.27.2 pydub-0.25.1 pyreadline3-3.5.4 python-dateutil-2.9.0.post0 python-multipart-0.0.12 pytorch-lightning-1.9.0 pytz-2025.2 pyyaml-6.0.2 referencing-0.36.2 regex-2024.11.6 requests-2.32.3 rpds-py-0.23.1 ruff-0.11.2 safehttpx-0.1.6 safetensors-0.4.4 schedulefree-1.4 scipy-1.11.4 semantic-version-2.10.0 sentencepiece-0.2.0 sentry-sdk-2.24.1 setproctitle-1.3.5 shellingham-1.5.4 six-1.17.0 smmap-5.0.2 sniffio-1.3.1 starlette-0.46.1 sympy-1.13.1 tensorboard-2.19.0 tensorboard-data-server-0.7.2 tensorflow-2.19.0 tensorflow-io-gcs-filesystem-0.31.0 termcolor-2.5.0 timm-0.6.12 tk-0.1.0 tokenizers-0.19.1 toml-0.10.2 tomlkit-0.12.0 toolz-1.0.0 torch-2.5.0+cu124 torchmetrics-1.7.0 torchvision-0.20.0+cu124 tqdm-4.67.1 transformers-4.44.2 typer-0.15.2 tzdata-2025.2 urllib3-2.3.0 uvicorn-0.34.0 voluptuous-0.13.1 wandb-0.18.0 wcwidth-0.2.13 websockets-12.0 werkzeug-3.1.3 wheel-0.45.1 wrapt-1.17.2 xformers-0.0.28.post2 yarl-1.18.3 zipp-3.21.0
+2025-03-25 15:13:50,546 | sd | INFO | setup_common | Kohya_ss GUI version: v24.2.0
+
+2025-03-25 15:13:50,548 | sd | INFO | setup_common | Python version is 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2025-03-25 15:14:27,763 | sd | ERROR | setup_common | Error during Git operation: Command '['git', 'submodule', 'update', '--init', '--recursive', '--quiet']' returned non-zero exit status 128.
+2025-03-25 15:14:27,768 | sd | INFO | setup_common | Installing/Validating requirements from requirements_pytorch_windows.txt...

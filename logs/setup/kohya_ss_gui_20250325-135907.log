@@ -1,0 +1,19 @@
+2025-03-25 13:59:07,336 | sd | INFO | setup_common | Terminal screen cleared successfully
+2025-03-25 13:59:11,506 | sd | INFO | setup_common | Kohya_ss GUI version: v24.2.0
+
+2025-03-25 13:59:11,507 | sd | INFO | setup_common | Python version is 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+2025-03-25 13:59:12,972 | sd | INFO | setup_common | Submodule initialized and updated.
+2025-03-25 13:59:12,973 | sd | INFO | setup_common | Installing/Validating requirements from requirements_pytorch_windows.txt...
+2025-03-25 13:59:13,825 | sd | INFO | setup_common | Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu124
+2025-03-25 13:59:13,826 | sd | INFO | setup_common | Obtaining file:///D:/Finetune/Finetune/sd-scripts (from -r requirements.txt (line 38))
+2025-03-25 13:59:13,828 | sd | INFO | setup_common | Preparing metadata (setup.py): started
+2025-03-25 13:59:14,088 | sd | INFO | setup_common | Preparing metadata (setup.py): finished with status 'done'
+2025-03-25 13:59:14,562 | sd | INFO | setup_common | Installing collected packages: library
+2025-03-25 13:59:14,563 | sd | INFO | setup_common | Attempting uninstall: library
+2025-03-25 13:59:14,566 | sd | INFO | setup_common | Found existing installation: library 0.0.0
+2025-03-25 13:59:14,568 | sd | INFO | setup_common | Uninstalling library-0.0.0:
+2025-03-25 13:59:15,097 | sd | INFO | setup_common | Successfully uninstalled library-0.0.0
+2025-03-25 13:59:15,098 | sd | INFO | setup_common | Running setup.py develop for library
+2025-03-25 13:59:15,536 | sd | INFO | setup_common | Successfully installed library-0.0.0
+2025-03-25 13:59:19,974 | sd | ERROR | setup_common | Error occurred while running command: accelerate config default
+2025-03-25 13:59:19,975 | sd | ERROR | setup_common | Error: Command 'accelerate config default' returned non-zero exit status 1.
